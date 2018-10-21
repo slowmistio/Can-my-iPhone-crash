@@ -1,3 +1,8 @@
 var sys = 0xd0000
 alert("Payload Done")
-var sys.buffer = 0xd000
+var mem = 300
+if (mem) sys;
+{
+  alert("Payload Can Not Run Error 89")
+}
+
